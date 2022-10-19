@@ -8,5 +8,10 @@ def main(n):
     Returns:
         bool: answer
     """
-
-    return
+    x=n//10000
+    y=n//1000%10
+    c=n//100%10
+    d=n//10%10
+    f=n%10000%10
+    if 
+print(main(10011))
