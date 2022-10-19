@@ -5,4 +5,12 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    x=a//10000
+    y=a//1000%10
+    c=a//100%10
+    d=a//10%10
+    f=a%10000%10
+    if x<y<c<d<f:
+        return True
+    return False
+print(main(12347))
