@@ -11,7 +11,6 @@ def main(a):
     c=a//100%10
     d=a//10%10
     f=a%10000%10
-    if x>y>c>d>f:
-        return True
-    return False
+    
+    return x>y>c>d>f
 print(main(95432))
