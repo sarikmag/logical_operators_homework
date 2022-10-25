@@ -13,5 +13,6 @@ def main(n):
     c=n//100%10
     d=n//10%10
     f=n%10000%10
-    if 
+    print(x,y,c,d,f)
+    return  x
 print(main(10011))
