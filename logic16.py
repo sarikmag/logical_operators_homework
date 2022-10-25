@@ -7,5 +7,5 @@ def main(a):
         bool: answer
     """
     
-    return a//10000>0
-print(main(763))
+    return a//10000>=1
+print(main(15234))
