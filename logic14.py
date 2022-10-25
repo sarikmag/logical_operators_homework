@@ -9,7 +9,6 @@ def main(a):
     x=a//10
     y=a%10
     z=x+y
-    if z%2!=0:
-        return True
-    return False
+    
+    return z%2==1
 print(main(35))
