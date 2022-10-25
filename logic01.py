@@ -8,9 +8,6 @@ def main(a,b,c):
     Returns:
         bool: answer
     """
-    if b>=a and b<=c:
-        return True
-    if b<=a and b>=c:
-        return True
-    return False
-print(main(6, 4, 1))
+    
+    return (b>=a and b<=c) or (b<=a and b>=c)
+print(main(6, 4, 5))
