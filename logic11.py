@@ -6,7 +6,6 @@ def main(a):
     Returns:
         bool: answer
     """
-    if a//100<10 and a//100>0:
-        return True
-    return False
-print(main(123))
+    
+    return a//100>0
+print(main(12))
