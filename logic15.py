@@ -10,7 +10,6 @@ def main(a):
     y=a//10%10
     z=a%100%10
     s=x+y+z
-    if s%2!=0:
-        return True
-    return False
-print(main(152))
+    
+    return s%2==1
+print(main(335))
