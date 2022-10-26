@@ -7,5 +7,5 @@ def main(a):
         bool: answer
     """
     
-    return a//10!=0
-print(main(12))
+    return a//10<10 and a//10!=0
+print(main(124))
